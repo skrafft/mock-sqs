@@ -4,7 +4,7 @@ var uuid = require('node-uuid');
 var queues = {};
 module.exports.SQS = SQS;
 module.exports.reset = function() {
-  queues = {};
+  // queues = {};
 };
 
 function SQS(options) {
